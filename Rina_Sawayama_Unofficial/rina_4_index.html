@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rina Sawayama [Unofficial]</title>
+    <link rel="stylesheet" href="rina_4_css.css">
+</head>
+
+<body>
+    <div class = segment id = "first">
+    <video id="XSvid" muted autoplay loop>
+        <source src="XSHeader_2.mov">
+    </video>
+    <img id = "vidbtn" src="pause.png"></img>
+    <span class = "heading" id = "title"> RINA SAWAYAMA_<span id="cursor">|</span></span> 
+    <span id = "down1" class = "rotated" onclick="toProfile()">>></span> 
+    </div>     
+
+    <div class = segment id="second">
+        <span class = "heading" id = "intro"> Profile </span>
+        <img id = "logo" src="goldrina.png" title="XS 'Bottled Gold' logo"></img>
+        <p id = profile> Rina Sawayama (澤山 リナ), is a <span class="yellow">Japanese</span>-<span class="yellow">British</span> 
+            singer-songwriter and model. Born on 16 August 1990 in Niigata, Japan, she moved to London with her family at the age of five. 
+            In 2017, she self-released her debut extended play, <span class= "yellow">RINA.</span>  After signing to Dirty Hit in 2020, 
+            she released her debut studio album, <span class= "yellow">SAWAYAMA</span>, to widespread critical acclaim. 
+            She has become a huge voice in both the <span class= "yellow">Asian</span> and <span class= "yellow">LGBT+ </span>communities, and is kind of just really cool.
+        </p>
+        <p class="starred" id ="logotext">*XS 'Bottled Gold' logo, from the album SAWAYAMA</p>
+        
+    </div>
+    <span id = "down2" class = "rotated" onclick="toMusic()">>></span> 
+
+    <div class = segment id="third">
+        <span class="heading" id="top">Top Hits*</span>
+        <p class = "starred" id="outof">*1 out 1 Rina fans surveyed agree</p>
+        <div id="songs">
+            <ul>
+                <li><div class=dark id="song_1"> <img class = art src = "asiam_logo.png" id="asiam"></img> 
+                    <span class="track_title" id="track_1">Take Me As I Am</span>
+                    <audio class="track" src="asiam_snippet.ogg" controls></audio> </div>  
+                </li>
+                <li><div class=light id="song_2"> <img class = art  src = "xs_logo.png" id="xs"></img>
+                    <span class="track_title" id="track_2">XS</span>
+                    <audio class="track" src="xs_snippet.ogg" controls></audio> </div> 
+                </li>
+                <li><div class=dark id="song_3"> <img class = art src = "degarcon_logo.png" id="degarcon"></img> 
+                    <span class="track_title" id="track_3">Comme Des Garçons (Like the Boys)</span>
+                    <audio class="track" src="degracon_snippet.ogg" controls></audio> </div> </li>
+                <li><div class=light id="song_4"> <img class = art  src = "cyber_logo.png" id="cyber"></img> 
+                    <span class="track_title" id="track_4">Cyber Stockholm Syndrome</span>
+                    <audio class="track" src="cyber_snippet.ogg" controls></audio> </div> </li>
+                <li><div class=dark id="song_5"> <img class = art src = "stfu_logo.png" id="stfu"></img> 
+                    <span class="track_title" id="track_5">STFU!</span>
+                    <audio class="track" src="stfu_snippet.ogg" controls></audio> </div> </li>
+                <li><br></li>
+                <li><a id = "totop" href="#first"><span>Back to Top</span></a></li>
+            </ul>
+        </div>
+        <div id="desc"> <p id="commentary"> [Song-based, jounalistic commentary] </p></div>
+        </div>
+    </div>
+</body>
+
+<script src="rina_4_app.js"></script> <!moving to top of block shuts it down>
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+
+</html>
